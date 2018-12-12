@@ -62,7 +62,7 @@ class KeyPhraseService
     key_phrases_by_percentage = []
 
     key_phrases.each do |key_phrase, score|
-      (100 * score / sum_score).times do |_|
+      (100.0 * score / sum_score + 0.5).to_i.times do |_|
         key_phrases_by_percentage.append(key_phrase)
       end
     end
