@@ -24,7 +24,8 @@ mkdir -p ~/.mikutter/plugin; git clone https://github.com/massongit/mikutter_mat
 ```
 
 ## アルゴリズム
-TL上のツイートの特徴語の集合を<a href="https://www.codecogs.com/eqnedit.php?latex=T" target="_blank"><img src="https://latex.codecogs.com/gif.latex?T" title="T" /></a>、特定のユーザーのツイートの特徴語の集合を<a href="https://www.codecogs.com/eqnedit.php?latex=U" target="_blank"><img src="https://latex.codecogs.com/gif.latex?U" title="U" /></a>としたとき、これらの集合の類似度をSimpson係数 (次式) で算出しています。  
-なお、特徴語の集合内には、スコアに応じた割合で特徴語が格納されています。
+TL上のツイートの特徴語の集合を<a href="https://www.codecogs.com/eqnedit.php?latex=T" target="_blank"><img src="https://latex.codecogs.com/gif.latex?T" title="T" /></a>、特定のユーザーのツイートの特徴語の集合を<a href="https://www.codecogs.com/eqnedit.php?latex=U" target="_blank"><img src="https://latex.codecogs.com/gif.latex?U" title="U" /></a>としたとき、これらの集合の類似度をSimpson係数 (次式) で算出しています。
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\mathrm{simpson}(T,&space;U)=\frac{|T&space;\cap&space;U|}{\min(|T|,&space;|U|)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mathrm{simpson}(T,&space;U)=\frac{|T&space;\cap&space;U|}{\min(|T|,&space;|U|)}" title="\mathrm{simpson}(T, U)=\frac{|T \cap U|}{\min(|T|, |U|)}" /></a>
+
+なお、特徴語の集合内には、スコアに応じた割合で特徴語が格納されています。
