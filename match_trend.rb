@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# トレンドへの追随度 (TLの特徴語と特定のユーザーのツイートの特徴語の類似度) を算出する
+# トレンドへの追随度 (TL上のツイートの特徴語と特定のユーザーのツイートの特徴語の類似度) を算出する
 
 require_relative 'config/environment'
 require_relative 'service/key_phrase_service'

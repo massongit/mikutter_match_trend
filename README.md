@@ -4,7 +4,7 @@
 <a href="https://developer.yahoo.co.jp/about">
 <img src="https://s.yimg.jp/images/yjdn/yjdn_attbtn2_105_17.gif" width="105" height="17" title="Webサービス by Yahoo! JAPAN" alt="Webサービス by Yahoo! JAPAN" border="0" style="margin:15px 15px 15px 15px"></a>
 
-トレンドへの追随度 (TLの特徴語と特定のユーザーのツイートの特徴語の類似度) を算出するmikutterプラグイン
+トレンドへの追随度 (TL上のツイートの特徴語と特定のユーザーのツイートの特徴語の類似度) を算出するmikutterプラグイン
 
 ## 作者
 Masaya Suzuki <suzukimasaya428@gmail.com>
