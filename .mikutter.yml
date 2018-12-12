@@ -6,4 +6,4 @@ depends:
 version: '1.0'
 author: Masaya Suzuki
 name: トレンドへの追随度チェックプラグイン
-description: トレンドへの追随度 (TLの特徴語と自分のツイートの特徴語の類似度) を算出する
+description: トレンドへの追随度 (TLの特徴語と特定のユーザーのツイートの特徴語の類似度) を算出する
