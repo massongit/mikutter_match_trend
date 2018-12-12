@@ -22,3 +22,9 @@ Masaya Suzuki <suzukimasaya428@gmail.com>
 ```bash
 mkdir -p ~/.mikutter/plugin; git clone https://github.com/massongit/mikutter_match_trend match_trend
 ```
+
+## アルゴリズム
+TL上のツイートの特徴語の集合を$T$、特定のユーザーのツイートの特徴語の集合を$U$としたとき、これらの集合の類似度をSimpson係数 (次式) で算出しています。  
+なお、特徴語の集合内には、スコアに応じた割合で特徴語が格納されています。
+
+$$ \mathrm{simpson}(T, U)=\frac{|T \cap U|}{\min(|T|, |U|)} $$
