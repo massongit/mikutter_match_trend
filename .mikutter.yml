@@ -1,0 +1,9 @@
+---
+slug: :match_trend
+depends:
+  mikutter: 3.8.0
+  plugin: []
+version: '1.0'
+author: Masaya Suzuki
+name: トレンドへの追随度チェックプラグイン
+description: トレンドへの追随度 (TLの特徴語と自分のツイートの特徴語の類似度) を算出する
